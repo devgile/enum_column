@@ -1,7 +1,10 @@
 Gem::Specification.new do |s|
-  s.name = %q{enum_column3}
+  s.name = %q{dg-enum_column4}
   s.version = "0.1.4"
-  s.authors = ['Nick Pohodnya']
+  s.authors = ['Nick Pohodnya', 'Gonzalo Fernandez']
+  s.email = ['chalofa@gmail.com']
+  s.description = 'Enum column support for Rails 4'
+  s.license = 'LICENSE'
 
   s.files = [
      "README.txt",
@@ -9,6 +12,7 @@ Gem::Specification.new do |s|
      "init.rb",
      "lib/enum_column.rb",
      "lib/enum_column3.rb",
+     "lib/dg-enum_column4.rb",
      "lib/enum/active_record_helper.rb",
      "lib/enum/enum_adapter.rb",
      "lib/enum/mysql_adapter.rb",
@@ -17,7 +21,7 @@ Gem::Specification.new do |s|
      "lib/enum/schema_statements.rb",
      "lib/enum/validations.rb"
   ]
-  s.homepage = %q{http://github.com/electronick/enum_column}
+  s.homepage = %q{http://github.com/devgile/enum_column}
   s.require_paths = ["lib"]
   s.summary = %q{Enable enum type for MySQL db.}
   s.test_files = [
