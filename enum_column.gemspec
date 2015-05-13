@@ -1,9 +1,9 @@
 Gem::Specification.new do |s|
   s.name = %q{dg-enum_column4}
-  s.version = "0.1.6"
+  s.version = "0.1.7"
   s.authors = ['Nick Pohodnya', 'Gonzalo Fernandez']
   s.email = ['chalofa@gmail.com']
-  s.description = 'Enum column support for Rails 4'
+  s.description = 'Enum column support for Rails 4.1'
   s.license = 'LICENSE'
 
   s.files = [
