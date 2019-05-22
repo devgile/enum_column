@@ -1,3 +1,5 @@
+require 'active_record/connection_adapters/mysql2_adapter'
+
 adapter_class = if defined? ActiveRecord::ConnectionAdapters::MySQLJdbcConnection
   ActiveRecord::ConnectionAdapters::MySQLJdbcConnection
 elsif defined? ActiveRecord::ConnectionAdapters::Mysql2Adapter
