@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.license = 'LICENSE'
 
   s.files = [
-    'README.txt',
+    'README.md',
     'LICENSE',
     'init.rb',
     'lib/mysql_enum_column.rb',
